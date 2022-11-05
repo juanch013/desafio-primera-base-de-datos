@@ -1,0 +1,19 @@
+<div>
+    <h1 class="titleViewProd">Tus productos</h1>
+    <table>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Price</td>
+            <td>Img</td>
+        </tr>
+        {{#each productos}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.title}}</td>
+            <td>{{this.price}}</td>
+            <td><img class="imagenProd" src={{this.thumbnail}}/></td>
+        </tr>
+        {{/each}}
+    </table>  
+</div>

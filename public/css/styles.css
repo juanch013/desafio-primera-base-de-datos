@@ -1,0 +1,73 @@
+
+nav{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+a{
+    background-color: gray;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+footer{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.titleViewProd{
+    margin-left: 220px;
+}
+table{
+    margin-top: 40px;
+    border: 1px solid black;
+}
+.imagenProd{
+    height: 100px;
+}
+td{
+    width: 150px;
+    border: 1px solid black;
+}
+tr{
+    align-items: center;
+    text-align: center;
+}
+
+.titleAddProd{
+    margin-left: 170px;
+}
+form{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 300px;
+}
+input{
+    margin-bottom: 20px;
+    width: 320px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    margin-left: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#email{
+    color: blue;
+}
+
+#m{
+    font-style: italic;
+    color: green;
+}
+
+#fecha{
+    color: brown;
+}
+
+
